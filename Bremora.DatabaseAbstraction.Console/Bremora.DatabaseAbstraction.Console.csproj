@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="AutoFixture" Version="4.11.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="System.Data.Common" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bremora.DatabaseAbstraction.Database.MongoDb\Bremora.DatabaseAbstraction.Database.MongoDb.csproj" />
+    <ProjectReference Include="..\Bremora.DatabaseAbstraction.Core\Bremora.DatabaseAbstraction.Core.csproj" />
+    <ProjectReference Include="..\Bremora.DatabaseAbstraction.Database.RavenDb\Bremora.DatabaseAbstraction.Database.RavenDb.csproj" />
+  </ItemGroup>
+
+</Project>

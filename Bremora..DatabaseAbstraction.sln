@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bremora.DatabaseAbstraction.Sample", "Bremora.DatabaseAbstraction.Console\Bremora.DatabaseAbstraction.Console.csproj", "{A2B0B53D-254A-4027-BD1C-DA4A774B9CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bremora.DatabaseAbstraction.Core", "Bremora.DatabaseAbstraction.Core\Bremora.DatabaseAbstraction.Core.csproj", "{4CE592D8-61BB-4380-9F0F-D67292DEB42F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bremora.DatabaseAbstraction.Database.RavenDb", "Bremora.DatabaseAbstraction.Database.RavenDb\Bremora.DatabaseAbstraction.Database.RavenDb.csproj", "{93F85451-B93A-4F0A-B425-C6A5119C28F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bremora.DatabaseAbstraction.Database.MongoDb", "Bremora.DatabaseAbstraction.Database.MongoDb\Bremora.DatabaseAbstraction.Database.MongoDb.csproj", "{A7C30EC5-AE71-4E24-B297-6A97767A5E17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2B0B53D-254A-4027-BD1C-DA4A774B9CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B0B53D-254A-4027-BD1C-DA4A774B9CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B0B53D-254A-4027-BD1C-DA4A774B9CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B0B53D-254A-4027-BD1C-DA4A774B9CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE592D8-61BB-4380-9F0F-D67292DEB42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE592D8-61BB-4380-9F0F-D67292DEB42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE592D8-61BB-4380-9F0F-D67292DEB42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE592D8-61BB-4380-9F0F-D67292DEB42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F85451-B93A-4F0A-B425-C6A5119C28F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F85451-B93A-4F0A-B425-C6A5119C28F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F85451-B93A-4F0A-B425-C6A5119C28F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F85451-B93A-4F0A-B425-C6A5119C28F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C30EC5-AE71-4E24-B297-6A97767A5E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C30EC5-AE71-4E24-B297-6A97767A5E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C30EC5-AE71-4E24-B297-6A97767A5E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C30EC5-AE71-4E24-B297-6A97767A5E17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {232095FC-22E6-445D-A8DA-D914C618F748}
+	EndGlobalSection
+EndGlobal
